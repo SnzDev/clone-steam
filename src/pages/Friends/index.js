@@ -19,7 +19,10 @@ export default function Friends() {
                     />
                     <View style={Style.profileTextContainer}>
                         <Text style={Style.profileTitle}>Dreamy</Text>
-                        <Text style={Style.profileSubTitle}>Online</Text>
+                        <View style={{flexDirection: 'row'}}>
+                            <Text style={Style.profileSubTitle}>Online</Text>
+                            <Icon name="mobile" style={Style.cellphoneIcon}/>
+                        </View>
                     </View>
                 </View>
                 <View style={Style.profileRight}>
@@ -27,7 +30,7 @@ export default function Friends() {
                         <View>
                             <Icon
                                 name="chat"
-                                style={Style.chatIcon}
+                                style={Style.chatIconNew}
 
                             />
                             <Text style={Style.notificationNumber}>1</Text>
@@ -58,7 +61,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -82,7 +85,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -109,7 +112,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -133,7 +136,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -157,7 +160,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -181,7 +184,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -205,7 +208,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -229,7 +232,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -253,7 +256,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -280,7 +283,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -304,7 +307,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>
@@ -328,7 +331,7 @@ export default function Friends() {
                                 style={Style.chatIcon}
 
                             />
-                            <Text style={Style.notificationNumber}>1</Text>
+                            <Text style={Style.notificationNumber}></Text>
                         </View>
                     </TouchableNativeFeedback>
                 </View>

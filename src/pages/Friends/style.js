@@ -84,4 +84,12 @@ export default StyleSheet.create({
         fontSize: 50,
         color: '#CCC'
     },
+    chatIconNew: {
+        fontSize: 50,
+        color: '#FFF'
+    },
+    cellphoneIcon: {
+        fontSize: 20,
+        color: '#9fb7d9'
+    },
 })
